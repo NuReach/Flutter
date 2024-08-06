@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<Post> posts = [
       Post(
-          title: 'Post 1',
+          title: 'Post 1 hi',
           content: 'This is the content of post 1',
           author: 'Author 1'),
       Post(
