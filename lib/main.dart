@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/ListViewBuilder.dart';
 import 'package:flutter_application_1/screens/LoginScreen.dart';
+import 'package:flutter_application_1/screens/MySplashScreen.dart';
 import 'package:flutter_application_1/screens/Week1.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginScreen(),
+      home: Mysplashscreen(),
     );
   }
 }
