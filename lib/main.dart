@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/CardPost.dart';
-import 'package:flutter_application_1/screens/ListViewBuilder.dart';
-import 'package:flutter_application_1/screens/LoginScreen.dart';
-import 'package:flutter_application_1/screens/MySplashScreen.dart';
-import 'package:flutter_application_1/screens/Week1.dart';
+// import 'package:flutter_application_1/screens/ListViewBuilder.dart';
+// import 'package:flutter_application_1/screens/LoginScreen.dart';
+// import 'package:flutter_application_1/screens/MySplashScreen.dart';
+// import 'package:flutter_application_1/screens/Week1.dart';
 
 void main() {
   runApp(const MyApp());

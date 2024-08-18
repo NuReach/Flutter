@@ -21,7 +21,7 @@ class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
   @override
   Widget build(BuildContext context) {
-    bool hide = false;
+    // bool hide = false;
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 187, 35, 169),
         appBar: _appBar(),

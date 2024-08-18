@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/LoginScreen.dart';
+// import 'package:flutter_application_1/screens/LoginScreen.dart';
 import 'package:flutter_application_1/screens/LoginScreenV2.dart';
 
 class Mysplashscreen extends StatelessWidget {
