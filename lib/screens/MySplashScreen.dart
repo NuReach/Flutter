@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/LoginScreen.dart';
+import 'package:flutter_application_1/screens/LoginScreenV2.dart';
 
 class Mysplashscreen extends StatelessWidget {
   const Mysplashscreen({super.key});
@@ -84,7 +86,12 @@ Widget _bodyBuilder(context) {
                         ),
                         const Spacer(),
                         GestureDetector(
-                          onTap: () {},
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Loginscreenv2()));
+                          },
                           child: Center(
                               child: Text(
                             "Sign Up",
