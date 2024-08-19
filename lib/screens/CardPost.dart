@@ -11,7 +11,7 @@ class CardPost extends StatelessWidget {
       body: Center(
         child: Container(
           width: size.width * 0.60,
-          height: size.height * 0.60,
+          height: size.height * 0.70,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.all(Radius.circular(30)),
               color: Colors.white,
@@ -62,6 +62,21 @@ class CardPost extends StatelessWidget {
                                 size: 36,
                               ),
                             )),
+                  ),
+                  SizedBox(height: 6),
+                  Container(
+                    width:
+                        double.infinity, // Full width of the parent container
+                    child: ElevatedButton(
+                      onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.pink, // Background color
+                      ),
+                      child: Text(
+                        "Order now",
+                        style: TextStyle(color: Colors.white), // Text color
+                      ),
+                    ),
                   )
                 ],
               )),
