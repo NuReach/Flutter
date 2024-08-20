@@ -78,6 +78,8 @@ class HomeScreen extends StatelessWidget {
           Expanded(
               child: ListView.builder(
             itemCount: posts.length,
+            cacheExtent: 1000,
+            physics: BouncingScrollPhysics(),
             itemBuilder: (context, index) {
               final item = posts[index];
               return Column(
